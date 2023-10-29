@@ -1,0 +1,104 @@
+/* CSS STYLE:  */
+
+html {
+	font-family: cursive, sans-serif, -apple-system, Ubuntu, monospace;
+}
+::selection{
+	background: red;
+	color: ghostwhite;
+}
+
+body {
+	background-color: ghostwhite;
+	text-align: center;
+	margin: 0;
+}
+
+.header {
+	font-size: 24px;
+	padding: 20px;
+}
+
+.techskill {
+	color: black;
+	font-size: 22px;
+}
+.techskill a:hover {
+	color: red;
+}
+.alert {
+	color: red;
+	font-size: 22px;
+	font-weight: 800;
+}
+
+.navbar {
+	background-color: black;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.navbar img {
+	float: left;
+	padding: 12px;
+}
+
+.navbar a:hover {
+	color: #FFAC1C;
+	text-decoration: underline;
+}
+
+.navlink {
+	float: right;
+	display: block;
+	color: ghostwhite;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+/* COLLAPSE STYLE:  */
+.collapseplus {
+  background-color: #212a2e;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 80%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapseplus:hover {
+  background-color: #555;
+}
+
+.collapseplus:after {
+  content: '\002B';
+  color: ghostwhite;
+  font-weight: bolder;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  margin: auto;
+  width: 80%;
+  text-align: left;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: papayawhip;
+}
+
+.itemhead {
+	padding: 1%;
+}
